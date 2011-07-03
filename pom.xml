@@ -3,4 +3,21 @@
   <groupId>TestGitHub</groupId>
   <artifactId>TestGitHub</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+<build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <configuration>
+          <tagBase>http://localhost:8081/nexus/content/repositories/snapshots/</tagBase>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+<scm>
+	<connection>scm:git:git@github.com:anuragg/test.git</connection>
+	<developerConnection>scm:git:git@github.com:anuragg/test.git</developerConnection>
+	<url>https://github.com/anuragg/test</url>
+</scm>
 </project>
