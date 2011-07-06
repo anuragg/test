@@ -1,6 +1,6 @@
 package com.anurag.Testing;
 
-public class Sorting {
+public class SSorting {
 	public static int[] arrayX = {23, 47, 81, 95,7, 14, 39, 55, 62, 74};
 	public static int[] arrayY = {23, 47, 81, 95,7, 14, 39, 55, 62, 74};
 	public static int[] arrayZ = {23, 47, 81, 95,7, 14, 39, 55, 62, 74};
